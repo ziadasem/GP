@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/text.xml -->
+<vector android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="300"
+    app:layout_constraintEnd_toStartOf="@+id/layout_title"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+
+
+    </group>
+</vector>

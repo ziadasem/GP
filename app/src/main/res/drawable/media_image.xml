@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/media_image.xml -->
+<vector android:width="375dp"
+    android:height="259dp"
+    android:viewportWidth="375"
+    android:viewportHeight="259"
+    app:layout_constraintEnd_toStartOf="@+id/layout_title"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+
+        <clip-path
+            android:pathData="M0 0H385V259H0V0Z"
+            />
+
+    </group>
+</vector>

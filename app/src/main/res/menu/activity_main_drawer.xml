@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/user"
+            android:title="@string/my_account" />
+        <item
+            android:id="@+id/light_mode"
+            android:icon="@drawable/light_mode"
+            android:title="@string/light_mode" />
+        <item
+            android:id="@+id/achievements"
+            android:icon="@drawable/achievement"
+            android:title="@string/achievements" />
+        <item
+            android:id="@+id/payment_methods"
+            android:icon="@drawable/credit_card"
+            android:title="@string/payment_methods" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help_24px"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/info_24px"
+            android:title="@string/about" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/logout_24px"
+            android:title="@string/signout" />
+    </group>
+</menu>

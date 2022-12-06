@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/audio_bar.xml -->
+<vector android:width="375dp"
+    android:height="87dp"
+    android:viewportWidth="375"
+    android:viewportHeight="87"
+    app:layout_constraintEnd_toStartOf="@+id/layout_title"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+
+    <clip-path
+        android:pathData="M0 0H385V87H0V0Z"
+        />
+
+    <path
+        android:pathData="M0 0V87H385V0"
+        android:fillColor="#FFFFFF"
+        />
+    </group>
+
+</vector>

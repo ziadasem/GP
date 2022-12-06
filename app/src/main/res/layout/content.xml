@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/what_art_do"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="top"
+            android:lineHeight="26sp"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/what_art_do"
+            android:textAppearance="@style/what_art_do"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationY="-2.03sp"
+            app:flow_verticalAlign="top"
+            app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+            app:layout_constraintEnd_toEndOf="@+id/recyclerView"
+            app:layout_constraintStart_toStartOf="@+id/recyclerView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="166.96dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="65.04dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="32dp"
+            android:background="#E6E6E6"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/explore_art"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:listitem="@layout/like_art" />
+
+
+
+
+        <!-- Explore art through your phone -->
+        <TextView
+            android:id="@+id/explore_art"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/explore_art"
+            android:textAppearance="@style/explore_art"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationY="-2.03sp"
+            app:layout_constraintBottom_toTopOf="@+id/include"
+            app:layout_constraintEnd_toEndOf="@+id/recyclerView"
+            app:layout_constraintStart_toStartOf="@+id/recyclerView" />
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/explore_art"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="@+id/recyclerView"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/recyclerView"
+            app:layout_constraintTop_toBottomOf="@+id/explore_art" />
+
+        <!-- Recommended for you -->
+        <TextView
+            android:id="@+id/recommended"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/montserrat_alternates"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/recommended"
+            android:textAppearance="@style/recommended"
+            android:textStyle="bold"
+            android:translationY="-2.03sp"
+            app:layout_constraintEnd_toEndOf="@+id/include"
+            app:layout_constraintStart_toStartOf="@+id/include"
+            app:layout_constraintTop_toBottomOf="@+id/include" />
+
+        <include
+            android:id="@+id/Grid_layout"
+            layout="@layout/recommended"
+            android:layout_width="360dp"
+            android:layout_height="436dp"
+            app:layout_constraintEnd_toEndOf="@+id/recyclerView"
+            app:layout_constraintStart_toStartOf="@+id/recyclerView"
+            app:layout_constraintTop_toBottomOf="@+id/recommended" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
