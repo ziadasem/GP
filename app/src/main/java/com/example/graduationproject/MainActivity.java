@@ -1,5 +1,6 @@
 package com.example.graduationproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        setSupportActionBar(binding.appBarMain.getRoot().findViewById(R.id.app_bar));
 
 
         DrawerLayout drawer = binding.drawerLayout;
@@ -55,5 +56,10 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public void goToNxtPge() {
+        Intent intent = new Intent(this,ViewArt.class);
+        startActivity(intent);
     }
 }
