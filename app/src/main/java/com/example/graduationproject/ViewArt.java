@@ -11,13 +11,11 @@ import java.util.Objects;
 
 public class ViewArt extends AppCompatActivity {
 
-    private TabLayout tl;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_art);
-        tl = findViewById(R.id.tabLayout);
+        TabLayout tl = findViewById(R.id.tabLayout);
         tl.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
