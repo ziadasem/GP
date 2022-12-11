@@ -26,8 +26,6 @@ Yapp/src/main/java/com/example/graduationproject/ui/achievements/AchievementsFra
 Zapp/src/main/java/com/example/graduationproject/ui/achievements/AchievementsViewModel.java,7\8\78b16fd76f41f97e195e29fff685764ab2683cb0
 l
 <app/src/main/java/com/example/graduationproject/adapter.java,b\d\bdce45b2f9dbb6b4e1cb7918653e807e056284fa
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 }
 Mapp/src/main/java/com/example/graduationproject/ui/camera/CameraFragment.java,4\7\472ddc5786e279d432bac63708ee9058342f7c46
 ~

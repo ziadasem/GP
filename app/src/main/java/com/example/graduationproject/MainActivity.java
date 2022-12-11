@@ -58,7 +58,9 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-    public void goToNxtPge() {
+
+
+    public void goToNxtPge(View view) {
         Intent intent = new Intent(this,ViewArt.class);
         startActivity(intent);
     }
