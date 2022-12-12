@@ -11,8 +11,6 @@ X
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
 <
@@ -24,8 +22,6 @@ F
 Yapp/src/main/java/com/example/graduationproject/ui/achievements/AchievementsFragment.java,9\6\9662b732b31cf58b580c1a735cabf68ebf3a9c2f
 Š
 Zapp/src/main/java/com/example/graduationproject/ui/achievements/AchievementsViewModel.java,7\8\78b16fd76f41f97e195e29fff685764ab2683cb0
-l
-<app/src/main/java/com/example/graduationproject/adapter.java,b\d\bdce45b2f9dbb6b4e1cb7918653e807e056284fa
 }
 Mapp/src/main/java/com/example/graduationproject/ui/camera/CameraFragment.java,4\7\472ddc5786e279d432bac63708ee9058342f7c46
 ~
@@ -50,11 +46,7 @@ Japp/src/main/java/com/example/graduationproject/ui/home/HomeViewModel.java,0\6
 Oapp/src/main/java/com/example/graduationproject/ui/payment/PaymentFragment.java,f\6\f6d7d78eeeb7a624e07ca869b7392081fb33ba4a
 €
 Papp/src/main/java/com/example/graduationproject/ui/payment/PaymentViewModel.java,2\3\23945693dcaa84e0ef43d154cc8346d88afef65f
-
-Oapp/src/main/java/com/example/graduationproject/ui/profile/ProfileFragment.java,4\1\4174991ccd4af3b17d6fd9afad52514fdd10ff0d
 €
 Papp/src/main/java/com/example/graduationproject/ui/profile/ProfileViewModel.java,0\4\0422b76d48f7b14604d3c33ffc82e832a49ef1ee
-p
-@app/src/main/java/com/example/graduationproject/ViewExhibit.java,f\e\fe12c89233f601b396cf0fc927a3abe838985ea0
 y
 Iapp/src/main/java/com/example/graduationproject/ui/home/HomeFragment.java,3\2\3270bc7106bc8295a3bbdaf135be71947f15b50d

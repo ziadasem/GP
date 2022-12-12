@@ -7,7 +7,8 @@
         <item
             android:id="@+id/my_account"
             android:icon="@drawable/user"
-            android:title="@string/my_account" />
+            android:title="@string/my_account"
+            />
         <item
             android:id="@+id/light_mode"
             android:icon="@drawable/light_mode"
