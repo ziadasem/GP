@@ -5,7 +5,7 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/my_account"
+            android:id="@+id/profileFragment"
             android:icon="@drawable/user"
             android:title="@string/my_account"
             />
@@ -18,7 +18,7 @@
             android:icon="@drawable/achievement"
             android:title="@string/achievements" />
         <item
-            android:id="@+id/payment_methods"
+            android:id="@+id/paymentFragment"
             android:icon="@drawable/credit_card"
             android:title="@string/payment_methods" />
         <item

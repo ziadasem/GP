@@ -10,15 +10,9 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:theme="@style/Theme.GraduationProject.AppBarOverlay">
+        android:background="@color/white">
+        <include layout="@layout/titlebar" />
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/app_bar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <include layout="@layout/titlebar" />
-        </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />

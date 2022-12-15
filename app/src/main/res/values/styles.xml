@@ -4,5 +4,7 @@
     <style name="artissimo">
         <item name="android:textSize">32sp</item>
         <item name="android:textColor">#151515</item>
+        <item name="fontFamily">@font/montserrat_alternates</item>
+
     </style>
 </resources>
